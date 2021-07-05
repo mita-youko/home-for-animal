@@ -15,4 +15,5 @@ class User < ApplicationRecord
     validates :phone_number
   end
   
+  has_many :dogs
 end
