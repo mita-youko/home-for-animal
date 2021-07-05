@@ -5,4 +5,7 @@ class Year < ActiveHash::Base
       { id: 3, name: '青年期' },
       { id: 4, name: '老年期' }
     ]
+
+    include ActiveHash::Associations
+    has_many :dogs
 end

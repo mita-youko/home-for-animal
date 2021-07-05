@@ -23,4 +23,7 @@ class DogBreed < ActiveHash::Base
       { id: 21, name: 'ラブラドール・レトリーバー' },
       { id: 22, name: 'その他' }
     ]
+
+  include ActiveHash::Associations
+  has_many :dogs
 end

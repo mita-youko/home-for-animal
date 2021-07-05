@@ -5,4 +5,7 @@ class Size < ActiveHash::Base
       { id: 3, name: '中型' }
       { id: 3, name: '大型' }
     ]
+
+    include ActiveHash::Associations
+    has_many :dogs
 end
