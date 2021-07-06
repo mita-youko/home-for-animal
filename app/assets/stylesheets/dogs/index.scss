@@ -1,0 +1,55 @@
+.dog-page-main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.back-set{
+    width: 100vw;
+    height: 100vh;
+    background-image: image-url('rain.png');
+    background-position: center;
+    background-size: 2% auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    
+}
+
+
+.dogs{
+    width: 85vw;
+    height: calc(100vh - 30px);
+    background-color: #ffffff;
+    text-align: center;
+    color: gray;
+}
+
+.bosyu-dogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.title{
+    background-color: lightslategray;
+    color: #ffffff;
+}
+
+.lists{
+    text-decoration: none;
+    display: block;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.pic-image{
+    width: auto;
+    height: 20vh;
+    text-decoration: none;
+}
+
+
+
