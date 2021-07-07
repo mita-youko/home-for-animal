@@ -20,6 +20,7 @@
 .lists{
     display: flex;
     list-style: none;
+    background-color: #f4f4f4;
 }
 
 .logout{
