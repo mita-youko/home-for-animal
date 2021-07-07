@@ -39,12 +39,27 @@
     width: 50%;
     text-align: center;
     padding-top: 9.0%;
+    position: relative;
 }
-
-
 
 .box1{
     background-color: #c0b283;
+}
+
+.box1:hover .heart{
+    opacity: 1;
+}
+
+.heart{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    background-image: image-url('heart-small.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 42%;
+    bottom: 0px;
+    opacity: 0;
 }
 
 .box2{
@@ -65,13 +80,20 @@
     background-size: 100% auto;
 }
 
-
 .box4{
     background-color: #dcd0c0;
 }
 
+.box4:hover .heart{
+    opacity: 1;
+}
+
 .box5{
     background-color: #f4f4f4;
+}
+
+.box5:hover .heart{
+    opacity: 1;
 }
 
 .box6{
@@ -96,6 +118,22 @@
     background-color: #373737;
 }
 
+.box8:hover .star{
+    opacity: 1;
+}
+
+.star{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    background-image: image-url('kirakira01.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 42%;
+    bottom: 0px;
+    opacity: 0;
+}
+
 .btn-dog,.btn-cat{
     font-size: 28px;
     text-decoration: none;
@@ -117,8 +155,5 @@
     font-size: 20px;
     color: silver;
 }
-
-
-
 
 
